@@ -1,11 +1,15 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/*Name: ODORA STEPHEN*/
+/*Student Number: 25/U/BIO/01411*/
 
-#include <stdio.h>
+#include<stdio.h>
+int main(){
 
-int main(void)
-{
-    /* Write your code here */
-
-    return 0;
+float units_consumed, cost_per_unit, total_electricity;
+printf("Enter units consumed: ");
+scanf("%f", &units_consumed);
+printf("Enter cost per unit: ");
+scanf("%f", &cost_per_unit);
+total_electricity=units_consumed*cost_per_unit;
+printf("\ntotal bill: %.2f\n UGX",total_electricity );
+return 0;
 }
