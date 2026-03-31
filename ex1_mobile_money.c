@@ -12,8 +12,8 @@ int main(){
     printf("Enter the transaction fee (%%): ");
     scanf("%f", &fee_percent);
 
-    fee= (fee_percent/100)*amount+50;
-    total= amount+fee;
+    fee= (fee_percent/100) * amount;
+    total = amount+fee;
     
     printf("\ntransaction fee: %.2f UGX\n", fee);
     printf("Total deducted: %.2f UGX\n", total);
